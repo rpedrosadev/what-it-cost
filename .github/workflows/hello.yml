@@ -12,3 +12,6 @@ jobs:
       - name: Echo a greeting
         run: |
           echo "first CICD steps!"
+      - name: Obtener fecha
+        run: date
+      - run: ls -l
