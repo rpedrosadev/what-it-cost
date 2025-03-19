@@ -16,6 +16,10 @@ jobs:
         with:
           node-version: 18
       - name: Install deps
-        run: npm i
+        run: npm i --no-audit --no-fund --no-optional
       - name: Lint
         run: npm run lint
+      - name: Build
+        run: npm run build
+      - name: Tests
+        run: echo "this would be the tests"
