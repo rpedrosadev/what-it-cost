@@ -29,10 +29,12 @@ export const Movement = (props: Props) => {
       className={clsx(
         `p-[16px] border flex justify-between items-center ${bgColor[type]} rounded-md shadow-[0_0_15px_5px]`
       )}
+      role="region"
+      aria-label={`${type} movement`}
     >
       <div className="flex items-center gap-4">
         <Avatar>
-          <AvatarImage src={imgSrc} />
+          <AvatarImage src={imgSrc} alt={`${name} avatar`} />
           <AvatarFallback>{name}</AvatarFallback>
         </Avatar>
         <div className="">
