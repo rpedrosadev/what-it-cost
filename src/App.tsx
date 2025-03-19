@@ -1,6 +1,6 @@
 import "./App.css";
 // import { Movement } from "./components/Movement";
-import { OnBoardingPage } from "./pages/onBoarding/onBoardingPage";
+import { OnBoardingPage } from "./pages/onBoarding/OnBoardingPage";
 
 // const movements = [
 //   {

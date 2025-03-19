@@ -1,4 +1,4 @@
-import { InitialBalance } from "./initialBalance";
+import { InitialBalance } from "./InitialBalance";
 
 export const OnBoardingPage = () => {
   return (
